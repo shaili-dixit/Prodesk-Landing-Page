@@ -1,10 +1,10 @@
-🚀 #Prodesk IT Landing Page
+# 🚀Prodesk IT Landing Page
 
 A responsive and modern landing page developed for **Sprint 01** of the Prodesk IT Summer Engineering Program. The project demonstrates proficiency in HTML, CSS, JavaScript, responsive web design, Flexbox/Grid layouts, and basic UI/UX enhancements.
 
 ---
 
-##📌Project Overview
+## 📌Project Overview
 
 This project is a professional landing page for **Prodesk IT** featuring:
 
@@ -20,23 +20,23 @@ This project is a professional landing page for **Prodesk IT** featuring:
 
 ---
 
-##✨Features
+## ✨Features
 
-###✅Responsive Navbar
+### ✅Responsive Navbar
 - Fixed navigation bar
 - Smooth scrolling
 - Mobile-friendly layout
 
-###✅Hero Section
+### ✅Hero Section
 - Background image with overlay
 - Attractive headline and subheadline
 - "Get Started" CTA button
 
-###✅About Us Section
+### ✅About Us Section
 - Company description
 - Clean and minimal design
 
-###✅Services Section
+### ✅Services Section
 - CSS Grid layout
 - Three service cards:
   - 💻 Web Development
@@ -44,17 +44,17 @@ This project is a professional landing page for **Prodesk IT** featuring:
   - 🎯 Digital Marketing
 - Hover animations
 
-###✅Dark Mode
+### ✅Dark Mode
 - One-click theme toggle
 - Light and Dark UI support
 
-###✅Footer
+### ✅Footer
 - Copyright information
 - Social media links
 
 ---
 
-##🛠️Technologies Used
+## 🛠️Technologies Used
 
 - HTML5
 - CSS3
@@ -64,7 +64,7 @@ This project is a professional landing page for **Prodesk IT** featuring:
 
 ---
 
-##📂Folder Structure
+## 📂Folder Structure
 
 ```
 Prodesk-Landing-Page-folder/
@@ -80,22 +80,10 @@ Prodesk-Landing-Page-folder/
     ├── company.jpg
     ├── crescent.png
     ├── user.png
-
----
-
-##🌙Dark Mode
-
-Implemented using JavaScript by toggling the `dark-theme` class on the body.
-
-```javascript
-function toggleDarkMode() {
-    document.body.classList.toggle("dark-theme");
-}
 ```
-
 ---
 
-##📱Responsive Design
+## 📱Responsive Design
 
 The website adapts seamlessly to:
 
@@ -111,7 +99,7 @@ Implemented using:
 
 ---
 
-##🎨UI Enhancements
+## 🎨UI Enhancements
 
 - Smooth hover effects
 - Sticky navigation bar
@@ -122,18 +110,19 @@ Implemented using:
 
 ---
 
-##🔗Live Demo
+## 🔗Live Demo
 
-
-
----
-
-## 📂 GitHub Repository
-
+https://go.screenpal.com/watch/cO1b6AnuCeG
 
 ---
 
-##🎥Demo Video
+## 📂GitHub Repository
+
+https://github.com/shaili-dixit/Prodesk-Landing-Page.git
+
+---
+
+## 🎥 Demo Video
 
 A short functional demo video was recorded to showcase:
 
@@ -145,9 +134,11 @@ A short functional demo video was recorded to showcase:
 - Footer
 - Project Structure
 
+
+
 ---
 
-##🚀Future Enhancements
+## 🚀Future Enhancements
 
 - Hamburger Menu
 - Contact Form
@@ -158,7 +149,7 @@ A short functional demo video was recorded to showcase:
 
 ---
 
-##👩‍💻Developed By
+## 👩‍💻Developed By
 
 **Shaili Dixit**
 
