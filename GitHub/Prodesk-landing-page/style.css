@@ -1,0 +1,493 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#49dcf0;
+    padding-top:80px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.head{
+    width:100%;
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 30px;
+
+    background:rgba(44,93,138,0.95);
+    color:white;
+
+    border-bottom:2px solid black;
+
+    position:fixed;
+    top:0;
+    left:0;
+
+    z-index:1000;
+
+    backdrop-filter:blur(10px);
+}
+
+/* =========================
+   LOGO
+========================= */
+
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+#logo{
+    width:70px;
+    height:auto;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.nav{
+    display:flex;
+    gap:30px;
+    align-items:center;
+}
+
+.nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.box{
+    font-size:18px;
+    font-weight:600;
+
+    cursor:pointer;
+    position:relative;
+
+    transition:0.3s;
+}
+
+.box:hover{
+    transform:translateY(-3px);
+}
+
+.box:hover a{
+    color:#47ccf0;
+}
+
+.box::after{
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:-5px;
+
+    width:0;
+    height:2px;
+
+    background:#47ccf0;
+
+    transition:0.3s;
+}
+
+.box:hover::after{
+    width:100%;
+}
+
+/* =========================
+   ICONS
+========================= */
+
+.icons{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.boxs img{
+    width:30px;
+    height:30px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+.boxs img:hover{
+    transform:scale(1.1);
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+
+.content{
+    height:calc(100vh - 80px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background-image:url("assets/company.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    position:relative;
+}
+
+.content::before{
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.55);
+}
+
+.hero-overlay{
+    position:relative;
+    z-index:2;
+
+    text-align:center;
+    color:white;
+
+    max-width:900px;
+    padding:20px;
+
+    animation:fadeIn 1s ease;
+}
+
+.hero-overlay h1{
+    font-size:4rem;
+    line-height:1.2;
+
+    margin-bottom:20px;
+}
+
+.hero-overlay p{
+    max-width:700px;
+
+    margin:auto;
+    margin-bottom:30px;
+
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.cta-button{
+    margin-top:20px;
+
+    padding:15px 35px;
+
+    border:none;
+    border-radius:50px;
+
+    background:#47ccf0;
+    color:white;
+
+    font-size:18px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(23,77,92,.35);
+
+    transition:all .3s ease;
+}
+
+.cta-button:hover{
+    background:#249bb9;
+
+    transform:scale(1.05);
+
+    box-shadow:0 15px 30px rgba(71,204,240,.45);
+}
+
+/* =========================
+   ABOUT
+========================= */
+
+.about{
+    padding:80px 50px;
+
+    text-align:center;
+
+    background:white;
+}
+
+.about h2{
+    font-size:2.5rem;
+
+    margin-bottom:20px;
+}
+
+.about h2::after{
+    content:"";
+
+    display:block;
+
+    width:80px;
+    height:4px;
+
+    background:#47ccf0;
+
+    margin:15px auto;
+}
+
+.about p{
+    max-width:900px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+    color:#555;
+
+    font-size:1.1rem;
+}
+
+/* =========================
+   SERVICES
+========================= */
+
+.services{
+    padding:80px 50px;
+
+    background:#f5f7fa;
+
+    text-align:center;
+
+    border-top:1px solid #ddd;
+}
+
+.services h2{
+    font-size:2.5rem;
+
+    margin-bottom:50px;
+
+    color:#222;
+}
+
+.service-container{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+}
+
+.service-card{
+    background:white;
+
+    min-height:320px;
+
+    padding:40px 25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.1);
+
+    transition:
+    transform .3s ease,
+    box-shadow .3s ease;
+}
+
+.service-card:hover{
+    transform:translateY(-12px);
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.18);
+}
+
+.service-icon{
+    font-size:3rem;
+
+    margin-bottom:20px;
+}
+
+.service-card h3{
+    font-size:1.5rem;
+
+    margin-bottom:15px;
+}
+
+.service-card p{
+    color:#666;
+
+    line-height:1.7;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+}
+
+footer p{
+    margin-bottom:15px;
+}
+
+.social-icons{
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+}
+
+.social-icons span{
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.social-icons span:hover{
+    color:#47ccf0;
+}
+
+/* =========================
+   DARK MODE
+========================= */
+
+.dark-theme{
+    background:#111827;
+    color:white;
+}
+
+.dark-theme .head{
+    background:#1e293b;
+}
+
+.dark-theme .about{
+    background:#1e293b;
+}
+
+.dark-theme .about p{
+    color:#d1d5db;
+}
+
+.dark-theme .services{
+    background:#1e293b;
+}
+
+.dark-theme .services h2{
+    color:white;
+}
+
+.dark-theme .service-card{
+    background:#374151;
+}
+
+.dark-theme .service-card h3{
+    color:white;
+}
+
+.dark-theme .service-card p{
+    color:#d1d5db;
+}
+
+.dark-theme footer{
+    background:black;
+}
+
+/* =========================
+   ANIMATION
+========================= */
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .head{
+        flex-direction:column;
+
+        height:auto;
+
+        padding:15px;
+
+        gap:15px;
+    }
+
+    .nav{
+        flex-direction:column;
+
+        gap:15px;
+    }
+
+    .hero-overlay h1{
+        font-size:2.5rem;
+    }
+
+    .hero-overlay p{
+        font-size:1rem;
+    }
+
+    .cta-button{
+        padding:12px 25px;
+
+        font-size:16px;
+    }
+
+    .services,
+    .about{
+        padding:60px 20px;
+    }
+
+    .services h2,
+    .about h2{
+        font-size:2rem;
+    }
+}
