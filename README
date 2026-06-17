@@ -1,10 +1,10 @@
-# 🚀 Prodesk IT Landing Page
+#🚀Prodesk IT Landing Page
 
 A responsive and modern landing page developed for **Sprint 01** of the Prodesk IT Summer Engineering Program. The project demonstrates proficiency in HTML, CSS, JavaScript, responsive web design, Flexbox/Grid layouts, and basic UI/UX enhancements.
 
 ---
 
-## 📌 Project Overview
+##📌Project Overview
 
 This project is a professional landing page for **Prodesk IT** featuring:
 
@@ -20,23 +20,23 @@ This project is a professional landing page for **Prodesk IT** featuring:
 
 ---
 
-## ✨ Features
+##✨Features
 
-### ✅ Responsive Navbar
+###✅Responsive Navbar
 - Fixed navigation bar
 - Smooth scrolling
 - Mobile-friendly layout
 
-### ✅ Hero Section
+###✅Hero Section
 - Background image with overlay
 - Attractive headline and subheadline
 - "Get Started" CTA button
 
-### ✅ About Us Section
+###✅About Us Section
 - Company description
 - Clean and minimal design
 
-### ✅ Services Section
+###✅Services Section
 - CSS Grid layout
 - Three service cards:
   - 💻 Web Development
@@ -44,17 +44,17 @@ This project is a professional landing page for **Prodesk IT** featuring:
   - 🎯 Digital Marketing
 - Hover animations
 
-### ✅ Dark Mode
+###✅Dark Mode
 - One-click theme toggle
 - Light and Dark UI support
 
-### ✅ Footer
+###✅Footer
 - Copyright information
 - Social media links
 
 ---
 
-## 🛠️ Technologies Used
+##🛠️Technologies Used
 
 - HTML5
 - CSS3
@@ -64,24 +64,10 @@ This project is a professional landing page for **Prodesk IT** featuring:
 
 ---
 
-## 📷 Screenshots
-
-### Light Mode
-
-![Light Mode Screenshot](assets/light-mode.png)
-
-### Dark Mode
-
-![Dark Mode Screenshot](assets/dark-mode.png)
-
-> Replace these images with screenshots of your own project.
-
----
-
-## 📂 Folder Structure
+##📂Folder Structure
 
 ```
-project-folder/
+Prodesk-Landing-Page-folder/
 │
 ├── index.html
 ├── style.css
@@ -94,14 +80,10 @@ project-folder/
     ├── company.jpg
     ├── crescent.png
     ├── user.png
-    ├── laptop.png
-    ├── seo.png
-    └── target.png
-```
 
 ---
 
-## 🌙 Dark Mode
+##🌙Dark Mode
 
 Implemented using JavaScript by toggling the `dark-theme` class on the body.
 
@@ -113,7 +95,7 @@ function toggleDarkMode() {
 
 ---
 
-## 📱 Responsive Design
+##📱Responsive Design
 
 The website adapts seamlessly to:
 
@@ -129,7 +111,7 @@ Implemented using:
 
 ---
 
-## 🎨 UI Enhancements
+##🎨UI Enhancements
 
 - Smooth hover effects
 - Sticky navigation bar
@@ -140,23 +122,18 @@ Implemented using:
 
 ---
 
-## 🔗 Live Demo
+##🔗Live Demo
 
-https://your-vercel-link.vercel.app
 
-> Replace with your deployed Vercel URL.
 
 ---
 
 ## 📂 GitHub Repository
 
-https://github.com/yourusername/prodesk-landing-page
-
-> Replace with your repository link.
 
 ---
 
-## 🎥 Demo Video
+##🎥Demo Video
 
 A short functional demo video was recorded to showcase:
 
@@ -170,7 +147,7 @@ A short functional demo video was recorded to showcase:
 
 ---
 
-## 🚀 Future Enhancements
+##🚀Future Enhancements
 
 - Hamburger Menu
 - Contact Form
@@ -181,7 +158,7 @@ A short functional demo video was recorded to showcase:
 
 ---
 
-## 👩‍💻 Developed By
+##👩‍💻Developed By
 
 **Shaili Dixit**
 
@@ -190,6 +167,6 @@ Prodesk IT Summer Engineering Program 2026
 
 ---
 
-## 📜 License
+##📜License
 
 This project was developed for educational and internship purposes.
